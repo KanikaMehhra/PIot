@@ -32,9 +32,23 @@ sadEmoji=Emoji([
     ['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'],
 ],red,green,blue)
 
+purplexedEmoji=Emoji([
+    ['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'],
+    ['b', 'o', 'o', 'f', 'f', 'o', 'o', 'b'],
+    ['b', 'o', 'o', 'f', 'f', 'o', 'o', 'b'],
+    ['b', 'f', 'f', 'f', 'f', 'f', 'f', 'b'],
+    ['b', 'o', 'o', 'o', 'o', 'o', 'o', 'b'],
+    ['b', 'o', 'o', 'o', 'o', 'o', 'o', 'b'],
+    ['b', 'f', 'f', 'f', 'f', 'f', 'f', 'b'],
+    ['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'],
+],red,green,blue)
+
 
 while True:
     happyEmoji.drawEmoji()
     sleep(2)
     sadEmoji.drawEmoji()
+    sleep(2)
+    purplexedEmoji.drawEmoji()
+    sleep(2)
 
