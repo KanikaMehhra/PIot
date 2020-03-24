@@ -43,12 +43,11 @@ purplexedEmoji=Emoji([
     ['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'],
 ],red,green,blue)
 
+emojis=[happyEmoji,sadEmoji,purplexedEmoji]
 
 while True:
-    happyEmoji.drawEmoji()
-    sleep(2)
-    sadEmoji.drawEmoji()
-    sleep(2)
-    purplexedEmoji.drawEmoji()
-    sleep(2)
+    for emoji in range(len(emojis)):
+        emojis[emoji].drawEmoji()
+        sleep(3)
 
+   
