@@ -19,7 +19,7 @@ class Emoji:
                     color=self.__outlineColor
                 elif self.__shapeArray[row][col]=='f':
                     color=self.__fillInColor
-                    
+
                 sense.set_pixel(row,col,color)
 
 
